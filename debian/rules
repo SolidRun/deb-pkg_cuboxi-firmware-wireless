@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+DESTDIR=$(CURDIR)/debian/cuboxi-firmware-wireless
+
+%:
+	dh $@ 
+
+override_dh_auto_install:
+	mkdir -p $(DESTDIR)/lib/firmware/brcm
+	install -v -m644 brcmfmac4329-sdio.bin $(DESTDIR)/lib/firmware/brcm/
+	install -v -m644 brcmfmac4329-sdio.txt $(DESTDIR)/lib/firmware/brcm/
+	install -v -m644 brcmfmac4330-sdio.bin $(DESTDIR)/lib/firmware/brcm/
+	install -v -m644 brcmfmac4330-sdio.txt $(DESTDIR)/lib/firmware/brcm/
+	install -v -m644 bcm4329b1.hcd $(DESTDIR)/lib/firmware/brcm/
+	install -v -m644 bcm4330.hcd $(DESTDIR)/lib/firmware/brcm/

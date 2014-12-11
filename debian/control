@@ -1,0 +1,15 @@
+Source: cuboxi-firmware-wireless
+Section: non-free/kernel
+Priority: optional
+Maintainer: unknown <unknown>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/cuboxi-firmware-wifi.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/cuboxi-firmware-wifi.git;a=summary
+
+Package: cuboxi-firmware-wireless
+Architecture: any
+Description: cubox-i Wireless firmware
+ Provides the required firmware files for the bcm4329
+ and 4330 as contained in the Cubox-i and Hummingboard.
