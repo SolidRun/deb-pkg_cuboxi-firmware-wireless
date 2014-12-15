@@ -10,6 +10,17 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: cuboxi-firmware-wireless
 Architecture: any
+Depends: cuboxi-firmware-wireless-wifi-config, cuboxi-firmware-wireless-bluetooth
 Description: cubox-i Wireless firmware
  Provides the required firmware files for the bcm4329
  and 4330 as contained in the Cubox-i and Hummingboard.
+
+Package: cuboxi-firmware-wireless-wifi
+Architecture: any
+
+Package: cuboxi-firmware-wireless-wifi-config
+Architecture: any
+Depends: cuboxi-firmware-wireless-wifi
+
+Package: cuboxi-firmware-wireless-bluetooth
+Architecture: any
