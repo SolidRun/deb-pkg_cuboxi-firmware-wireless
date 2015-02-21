@@ -1,10 +1,10 @@
-cuboxi-firmware-wireless (1-2) unstable; urgency=low
+cuboxi-firmware-wireless (2) unstable; urgency=low
 
   * split into multiple packages
 
  -- Josua Mayer <privacy@not.given>  Tue, 16 Dec 2014 01:37:23 +0100
 
-cuboxi-firmware-wireless (1-1) unstable; urgency=low
+cuboxi-firmware-wireless (1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
