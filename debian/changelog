@@ -1,3 +1,9 @@
+cuboxi-firmware-wireless (3) stable; urgency=medium
+
+  * add broadcom patchram service
+
+ -- Josua Mayer <privacy@not.given>  Mon, 25 May 2015 04:11:36 +0200
+
 cuboxi-firmware-wireless (2) unstable; urgency=low
 
   * split into multiple packages

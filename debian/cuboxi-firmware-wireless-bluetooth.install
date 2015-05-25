@@ -1,1 +1,2 @@
 /lib/firmware/brcm/*.hcd
+/usr/sbin/brcm_patchram_plus

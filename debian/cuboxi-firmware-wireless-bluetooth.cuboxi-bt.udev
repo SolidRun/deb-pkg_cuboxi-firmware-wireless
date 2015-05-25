@@ -1,0 +1,3 @@
+# brcm4329 and 4330 bluetooth
+SUBSYSTEMS=="sdio", ATTRS{vendor}=="0x02d0", ATTRS{device}=="0x4329", ENV{SYSTEMD_WANTS}="brcm_patchram_plus@bcm4329.service"
+SUBSYSTEMS=="sdio", ATTRS{vendor}=="0x02d0", ATTRS{device}=="0x4330", ENV{SYSTEMD_WANTS}="brcm_patchram_plus@bcm4330.service"
