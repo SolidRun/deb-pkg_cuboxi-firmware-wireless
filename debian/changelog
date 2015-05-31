@@ -12,6 +12,6 @@ cuboxi-firmware-wireless (2) unstable; urgency=low
 
 cuboxi-firmware-wireless (1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- unknown <unknown>  Thu, 11 Dec 2014 01:23:30 +0100
