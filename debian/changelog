@@ -1,3 +1,9 @@
+cuboxi-firmware-wireless (4) stable; urgency=high
+
+  * take latest wifi firmware from android
+
+ -- Josua Mayer <josua@buntes196.wohnheim.uni-kl.de>  Thu, 15 Oct 2015 21:04:08 +0200
+
 cuboxi-firmware-wireless (3) stable; urgency=medium
 
   * add broadcom patchram service
