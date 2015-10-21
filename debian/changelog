@@ -1,8 +1,14 @@
+cuboxi-firmware-wireless (5) stable; urgency=high
+
+  * revert bcm4329 firmware back to the one in linux kernel
+
+ -- Josua Mayer <josua@linux>  Thu, 15 Oct 2015 21:04:08 +0200
+
 cuboxi-firmware-wireless (4) stable; urgency=high
 
   * take latest wifi firmware from android
 
- -- Josua Mayer <josua@buntes196.wohnheim.uni-kl.de>  Thu, 15 Oct 2015 21:04:08 +0200
+ -- Josua Mayer <josua@linux>  Thu, 15 Oct 2015 21:04:08 +0200
 
 cuboxi-firmware-wireless (3) stable; urgency=medium
 
