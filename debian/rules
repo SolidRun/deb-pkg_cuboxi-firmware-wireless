@@ -33,6 +33,7 @@ override_dh_auto_install:
 
 override_dh_installinit:
 	dh_installinit --name=brcm_patchram_plus@ -n
+	dh_installinit --name=brcm_patchram_plus
 
 override_dh_installudev:
 	dh_installudev --name=cuboxi-bt

@@ -1,3 +1,10 @@
+cuboxi-firmware-wireless (6) UNRELEASED; urgency=high
+
+  * re-added sysvinit script for bluetooth firmware
+    (skipped when systemd is detected)
+
+ -- Josua Mayer <josua@linux.site>  Sat, 13 Feb 2016 14:22:54 +0000
+
 cuboxi-firmware-wireless (5) stable; urgency=high
 
   * revert bcm4329 firmware back to the one in linux kernel
