@@ -1,9 +1,15 @@
-cuboxi-firmware-wireless (6) UNRELEASED; urgency=high
+cuboxi-firmware-wireless (7) stable; urgency=high
+
+  * rename bcm4329 BT firmware file to the expected name
+
+ -- Josua Mayer <josua@linux>  Tue, 16 Feb 2016 12:43:47 +0100
+
+cuboxi-firmware-wireless (6) stable; urgency=high
 
   * re-added sysvinit script for bluetooth firmware
     (skipped when systemd is detected)
 
- -- Josua Mayer <josua@linux.site>  Sat, 13 Feb 2016 14:22:54 +0000
+ -- Josua Mayer <josua@linux>  Sat, 13 Feb 2016 14:22:54 +0000
 
 cuboxi-firmware-wireless (5) stable; urgency=high
 
