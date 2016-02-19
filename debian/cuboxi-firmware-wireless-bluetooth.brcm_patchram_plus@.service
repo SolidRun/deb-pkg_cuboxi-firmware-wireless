@@ -6,4 +6,4 @@ After=local-fs.target remote-fs.target
 [Service]
 Type=simple
 Restart=on-success
-ExecStart=/usr/sbin/brcm_patchram_plus --patchram /lib/firmware/brcm/%I.hcd --baudrate 3000000 --use_baudrate_for_download /dev/ttymxc3 --enable_hci --no2bytes --tosleep=50000
+ExecStart=/usr/sbin/brcm_patchram_plus --patchram /lib/firmware/brcm/%I.hcd --baudrate 1500000 --use_baudrate_for_download /dev/ttymxc3 --enable_hci --no2bytes --tosleep=50000

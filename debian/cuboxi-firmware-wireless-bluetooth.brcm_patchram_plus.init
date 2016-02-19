@@ -14,7 +14,7 @@
 DESC="Broadcom bluetooth firmware loader"
 NAME=brcm_patchram_plus
 DAEMON=/usr/sbin/brcm_patchram_plus
-DAEMON_ARGS="--baudrate 3000000 --use_baudrate_for_download /dev/ttymxc3 --enable_hci --no2bytes --tosleep=50000"
+DAEMON_ARGS="--baudrate 1500000 --use_baudrate_for_download /dev/ttymxc3 --enable_hci --no2bytes --tosleep=50000"
 PIDFILE=/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
 

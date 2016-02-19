@@ -1,3 +1,9 @@
+cuboxi-firmware-wireless (8) stable; urgency=high
+
+  * reduce bluetooth connection speed to 1.5Mbit/s
+
+ -- Josua Mayer <josua@linux>  Fri, 19 Feb 2016 17:15:35 +0100
+
 cuboxi-firmware-wireless (7) stable; urgency=high
 
   * rename bcm4329 BT firmware file to the expected name
