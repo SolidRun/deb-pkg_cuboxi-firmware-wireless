@@ -1,0 +1,1187 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+          "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>wl18xx_fw in WiLink8 WLAN - Gitorious@TI Open Source Collaboration</title>
+<link href="/stylesheets/gts-common.css?1349083142" media="screen" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Nobile&amp;v1" type="text/css" rel="stylesheet">
+
+<script src="/javascripts/all.js?1362173786" type="text/javascript"></script>  <link href="/wilink8-wlan/wl18xx_fw.atom" rel="alternate" title="ATOM" type="application/atom+xml" /><link rel="vcs-git" href="git://git.ti.com/wilink8-wlan/wl18xx_fw.git" title="wl18xx_fw in WiLink8 WLAN" /><!--[if IE 8]><link rel="stylesheet" href="/stylesheets/ie8.css" type="text/css"><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/stylesheets/ie7.css" type="text/css"><![endif]-->
+
+</head>
+<body id="repositories">
+  <div id="wrapper">
+        <ul id="user-nav">
+      <li><a href="/">Dashboard</a></li>
+      
+          <li class="secondary"><a href="/users/new">Register</a></li>
+    <li class="secondary"><a href="/login">Login</a></li>
+    </ul>
+    <div id="header">
+      <h1 id="logo">
+        <a href="/"><img alt="Logo" src="/img/logo.png?1349083142" /></a>
+	<a href="/"><img alt="Ti_logo1" src="/img/ti_logo1.png?1349083142" /></a>      </h1>
+      <ul id="menu">
+                  <li class="activity"><a href="/activities">Activities</a></li>
+          <li class="projects"><a href="/projects">Projects</a></li>
+          <li class="teams"><a href="/teams">Teams</a></li>
+              </ul>
+    </div>
+    <div id="top-bar">
+      <ul id="breadcrumbs">
+        <li class="project"><a href="/wilink8-wlan">WiLink8 WLAN</a></li><li class="repository"><a href="/wilink8-wlan/wl18xx_fw">wl18xx_fw</a></li>      </ul>
+              <div id="searchbox">
+          
+
+
+<div class="search_bar">
+  <form action="/search" method="get">    <p>
+      <input class="text search-field round-5" id="q" name="q" type="text" />      <input type="submit" value="Search" class="search-submit round-5" />
+    </p>
+    <p class="hint search-hint" style="display: none;">
+      eg. 'wrapper', 'category:python' or '"document database"'
+          </p>
+  </form></div>
+        </div>
+          </div>
+    <div id="container" class="">
+      <div id="content" class="with_sidebar">
+        <div class="flash_message error"><p>Blob is too big (745204 bytes). Clone the repository locally to see it</p></div>
+        
+
+
+<div class="content-container" id="repositories">
+
+
+
+
+<div class="repository_meta">
+	<div class="repository-info">
+    		<h3 mainline>
+      		                      <a href="/wilink8-wlan">wilink8-wlan</a>                          		    <img alt="Arrow_right" src="/images/silk/arrow_right.png?1349083142" />      		        		  <a href="/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>                                  </h3>
+    
+
+    <div class="infobox">
+    
+
+<ul>
+  <li>
+    <div class="clone_urls">
+      <form class="clone_urls_form">
+        <p><strong>Clone &amp; push urls</strong></p>
+              <p class="clone_radio">
+        <label for="git-315">
+          <input type="radio" id="git-315" name="url-315" value="git://git.ti.com/wilink8-wlan/wl18xx_fw.git" checked="checked">GIT
+        </label>
+      </p>
+
+        
+        
+
+        <p class="clone-copy git">
+          <input type="text" readonly="readonly" id="clone-url-315" value="" />
+          <a href="#help" id="clone-help-315" class="clone-help-toggler">?</a>
+        </p>
+      </form>
+    </div>
+    <div id="clone-help-315-box" class="clone-help-text" style="display:none;">
+                  <p>Cloning this repository:
+<pre>
+git clone git://git.ti.com/wilink8-wlan/wl18xx_fw.git wl18xx_fw
+cd wl18xx_fw</pre></p>
+      <p>Add this repository as a remote to an existing local repository:
+<pre>
+git remote add wl18xx_fw git://git.ti.com/wilink8-wlan/wl18xx_fw.git
+git fetch wl18xx_fw
+git checkout -b my-local-tracking-branch wl18xx_fw/master_or_other_branch
+</pre>
+      </p>
+    </div>
+  </li>
+</ul>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+        var standard = $("#git-315:checked, #http-315:checked, #ssh-315:checked").val();
+
+        $('#clone-url-315').val(standard);
+
+        $('#git-315').click(function () {
+            var text = $('#git-315').val();
+            $('#clone-url-315').val(text);
+        });
+
+        $('#http-315').click(function () {
+            var text = $('#http-315').val();
+            $('#clone-url-315').val(text);
+        });
+        $('#ssh-315').click(function () {
+            var text = $('#ssh-315').val();
+            $('#clone-url-315').val(text);
+        });
+
+        $('#clone-url-315').click(function () {
+            this.select();
+        });
+    });
+</script>
+
+ </div>
+    <div class="branches">
+     <ul class="branch_list">
+       <li><strong>Branches:</strong></li>
+       <li class="head"><a href="/wilink8-wlan/wl18xx_fw/commits/master" title="master (HEAD)">master</a></li>
+<li class=""><a href="/wilink8-wlan/wl18xx_fw/commits/A1" title="A1">A1</a></li>
+<li class=""><a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" title="ap_dfs">ap_dfs</a></li>
+<li class=""><a href="/wilink8-wlan/wl18xx_fw/commits/ecs_apps" title="ecs_apps">ecs_apps</a></li>
+<li class=""><a href="/wilink8-wlan/wl18xx_fw/commits/mbss" title="mbss">mbss</a></li>
+<li class=""><a href="/wilink8-wlan/wl18xx_fw/commits/ol_r8.a7.02_pd_fix" title="ol_r8.a7.02_pd_fix">ol_r8.a7.02_pd_fix</a></li>
+<li class=""><a href="/wilink8-wlan/wl18xx_fw/commits/service_pack" title="service_pack">service_pack</a></li>     </ul>
+   </div>
+ 
+ 	</div> <!-- End of repository-description -->
+
+	<div class="repository-links">
+				
+	  	<ul>
+	    	<li class="repository-link commit">
+	      	<a href="/wilink8-wlan/wl18xx_fw/commits">Commit log</a>	    	</li>
+	    	<li class="repository-link tree">
+	      	<a href="/wilink8-wlan/wl18xx_fw/trees">Source tree</a>	    	</li>
+	    	<li class="repository-link merge_requests">
+	      	<a href="/wilink8-wlan/wl18xx_fw/merge_requests">Merge requests <small>(0)</small></a>	    	</li>
+
+					<li class="repository-link clone_repository">
+				<a href="/wilink8-wlan/wl18xx_fw/clone">Clone repository</a>			</li>
+		 	  </ul>	
+		
+	</div>
+
+</div>
+</div>
+<div class="content-container">
+  </div>
+  <h2>Activities <a href="/wilink8-wlan/wl18xx_fw.atom" alt="Atom feed" title="Atom feed"><img alt="Feed" class="feed_icon" src="/images/silk/feed.png?1349083142" /></a></h2>
+  
+
+
+
+
+<ul class="events w-750">
+  <li>
+    <p class="date">Thursday August 04 2016</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_52792">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">11:05</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/R8.7_SP1">R8.7_SP1: Created tag R8.7_SP1</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push_summary" id="event_52791">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">11:03</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/master" class="commit_event_toggler" gts:id="52791" gts:url="/events/52791/commits" id="commits_in_event_52791_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/master">wilink8-wlan/wl18xx_fw:master</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/9d054faf26f9ea166b925fca230d5c9784c553e4/diffs/fe3909e93d15a4b17e43699dde2bba0e9a3c0abc">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>master changed from 9d054fa to fe3909e</p>
+    </div>
+    
+              <div id="commits_in_event_52791" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Tuesday May 31 2016</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_50478">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">07:11</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/R8.7">R8.7: Created tag R8.7</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push_summary" id="event_50477">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">07:10</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/master" class="commit_event_toggler" gts:id="50477" gts:url="/events/50477/commits" id="commits_in_event_50477_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/master">wilink8-wlan/wl18xx_fw:master</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/c4c0c7943040473bd9aeba2ab9fa99617fa08a4b/diffs/9d054faf26f9ea166b925fca230d5c9784c553e4">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>master changed from c4c0c79 to 9d054fa</p>
+    </div>
+    
+              <div id="commits_in_event_50477" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+
+
+
+<li class="event_instance  delete_tag" id="event_50476">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">07:10</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      deleted tag R8.7 on <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Wednesday May 25 2016</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_50311">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">11:34</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/R8.7">R8.7: Created tag R8.7</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push_summary" id="event_50305">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">11:12</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/master" class="commit_event_toggler" gts:id="50305" gts:url="/events/50305/commits" id="commits_in_event_50305_toggler">40 commits</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/master">wilink8-wlan/wl18xx_fw:master</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/f3fe754d585f9af821c244a606761c5f69278ed6/diffs/c4c0c7943040473bd9aeba2ab9fa99617fa08a4b">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>master changed from f3fe754 to c4c0c79</p>
+    </div>
+    
+              <div id="commits_in_event_50305" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Tuesday April 19 2016</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_45389">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">10:27</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="45389" gts:url="/events/45389/commits" id="commits_in_event_45389_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/c4c0c7943040473bd9aeba2ab9fa99617fa08a4b/diffs/ad6b6e9fa75c5585297111de379a595670391342">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from c4c0c79 to ad6b6e9</p>
+    </div>
+    
+              <div id="commits_in_event_45389" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Monday January 25 2016</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_40667">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">11:41</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/R8.6_SP1">R8.6_SP1: Created tag R8.6_SP1</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Sunday January 17 2016</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_40468">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">08:27</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/R8.7_ED">R8.7_ED: Created tag R8.7_ED</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Thursday January 07 2016</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_40255">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">12:09</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/service_pack" class="commit_event_toggler" gts:id="40255" gts:url="/events/40255/commits" id="commits_in_event_40255_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/service_pack">wilink8-wlan/wl18xx_fw:service_pack</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/efcd7ab1f9e46765d972ea306728e41df6bbbbee/diffs/13e24dccdb13db899199a41b9e5f9dde2c38a9ec">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>service_pack changed from efcd7ab to 13e24dc</p>
+    </div>
+    
+              <div id="commits_in_event_40255" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+
+
+
+<li class="event_instance  create_tag" id="event_40254">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">11:50</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/ol_r8.a9.28">ol_r8.a9.28: Created tag ol_r8.a9.28</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Thursday October 08 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_36795">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">19:22</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/R8.6_compat">R8.6_compat: Created tag R8.6_compat</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Thursday July 02 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_25953">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">15:13</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/R8.6">R8.6: Created tag R8.6</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Monday June 29 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  delete_tag" id="event_25838">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">08:33</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      deleted tag c78a7f1d5bf5573 on <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  create_tag" id="event_25836">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">08:31</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/R8.5_SP1">R8.5_SP1: Created tag R8.5_SP1</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  create_tag" id="event_25837">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">08:31</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/c78a7f1d5bf5573">c78a7f1d5bf5573: Created tag c78a7f1d5bf5573</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Tuesday June 23 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_25713">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">08:26</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/ol_r8.a9.27">ol_r8.a9.27: Created tag ol_r8.a9.27</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push_summary" id="event_25707">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">07:54</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="25707" gts:url="/events/25707/commits" id="commits_in_event_25707_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/e9306228bb07853cbaa2dd3847dfeb726daf74da/diffs/c4c0c7943040473bd9aeba2ab9fa99617fa08a4b">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from e930622 to c4c0c79</p>
+    </div>
+    
+              <div id="commits_in_event_25707" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Thursday June 18 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_25635">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">15:11</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="25635" gts:url="/events/25635/commits" id="commits_in_event_25635_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/1f4218bbc77c5fd0caa9b00af412d0315c5977a4/diffs/e9306228bb07853cbaa2dd3847dfeb726daf74da">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from 1f4218b to e930622</p>
+    </div>
+    
+              <div id="commits_in_event_25635" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+
+
+
+<li class="event_instance  create_tag" id="event_25636">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">15:11</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/ol_r8.a9.26">ol_r8.a9.26: Created tag ol_r8.a9.26</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Thursday June 11 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_25067">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">14:54</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="25067" gts:url="/events/25067/commits" id="commits_in_event_25067_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/4868724ec3c0565770efd43fd8025522cd56da4a/diffs/1f4218bbc77c5fd0caa9b00af412d0315c5977a4">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from 4868724 to 1f4218b</p>
+    </div>
+    
+              <div id="commits_in_event_25067" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+
+
+
+<li class="event_instance  create_tag" id="event_25068">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">14:54</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/ol_r8.a9.25">ol_r8.a9.25: Created tag ol_r8.a9.25</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Friday May 29 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  create_tag" id="event_24717">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">12:43</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/a38feec25c797a6413e0a9dc3f7a247f&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~yanivma" class="event-author">Yaniv Machani</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/ol_r8.a9.24">ol_r8.a9.24: Created tag ol_r8.a9.24</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Tuesday May 19 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_24384">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">16:06</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="24384" gts:url="/events/24384/commits" id="commits_in_event_24384_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/28450dba896ff65ef2d2245967d793fb00fb9f9e/diffs/4868724ec3c0565770efd43fd8025522cd56da4a">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from 28450db to 4868724</p>
+    </div>
+    
+              <div id="commits_in_event_24384" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+
+
+
+<li class="event_instance  push_summary" id="event_24382">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">16:04</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="24382" gts:url="/events/24382/commits" id="commits_in_event_24382_toggler">0 commits</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/e3170a829f5eefa963266ace6c3b2299108d59d7/diffs/28450dba896ff65ef2d2245967d793fb00fb9f9e">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from e3170a8 to 28450db</p>
+    </div>
+    
+              <div id="commits_in_event_24382" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+
+
+
+<li class="event_instance  create_tag" id="event_24379">
+	  <p class="event_category commit">Commit</p>
+      <p class="event_date">15:13</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      tagged <a href="/wilink8-wlan">wilink8-wlan</a>/<a href="https://git.ti.com/wilink8-wlan/wl18xx_fw">wl18xx_fw</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p><a href="/wilink8-wlan/wl18xx_fw/trees/ol_r8.a9.23">ol_r8.a9.23: Created tag ol_r8.a9.23</a></p>
+    </div>
+    
+        
+  </div>
+</li>
+
+
+
+<li class="event_instance  push_summary" id="event_24374">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">14:57</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="24374" gts:url="/events/24374/commits" id="commits_in_event_24374_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/28450dba896ff65ef2d2245967d793fb00fb9f9e/diffs/e3170a829f5eefa963266ace6c3b2299108d59d7">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from 28450db to e3170a8</p>
+    </div>
+    
+              <div id="commits_in_event_24374" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Sunday May 10 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_24195">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">08:36</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="24195" gts:url="/events/24195/commits" id="commits_in_event_24195_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/c78a7f1d5bf5573460db15afd263e8bd130a6280/diffs/28450dba896ff65ef2d2245967d793fb00fb9f9e">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from c78a7f1 to 28450db</p>
+    </div>
+    
+              <div id="commits_in_event_24195" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+  <li>
+    <p class="date">Monday April 27 2015</p>
+    <ul class="event_instances">
+      
+
+
+<li class="event_instance  push_summary" id="event_23928">
+	  <p class="event_category push">Push</p>
+      <p class="event_date">06:47</p>
+    <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6f4555c2cbc238bdeeddf3ac8c1410a6&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;size=16" width="16" />
+
+  <div class="event_meta">
+    <p class="event_action">
+        
+      
+        <strong><a href="/~guym" class="event-author">Guy Mishol</a></strong>
+      
+      pushed <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs" class="commit_event_toggler" gts:id="23928" gts:url="/events/23928/commits" id="commits_in_event_23928_toggler">1 commit</a>  to <a href="/wilink8-wlan/wl18xx_fw/commits/ap_dfs">wilink8-wlan/wl18xx_fw:ap_dfs</a>. <a href="/wilink8-wlan/wl18xx_fw/commit/02df01f8b9557b2cf920d14bdaaabde2373e3d7e/diffs/c78a7f1d5bf5573460db15afd263e8bd130a6280">View diff</a>
+    
+    </p>
+    <div class=" commit_message">
+      <p>ap_dfs changed from 02df01f to c78a7f1</p>
+    </div>
+    
+              <div id="commits_in_event_23928" style="display:none">
+        <img alt="Spinner" src="/images/spinner.gif?1349083142" />      </div>
+    
+  </div>
+</li>
+    </ul>
+  </li>
+</ul>
+<div class="pagination"><span class="disabled prev_page">Previous</span> <span class="current">1</span> <a href="/wilink8-wlan/wl18xx_fw?page=2" rel="next">2</a> <a href="/wilink8-wlan/wl18xx_fw?page=3">3</a> <a href="/wilink8-wlan/wl18xx_fw?page=4">4</a> <a href="/wilink8-wlan/wl18xx_fw?page=5">5</a> <a href="/wilink8-wlan/wl18xx_fw?page=6">6</a> <a href="/wilink8-wlan/wl18xx_fw?page=7">7</a> <a href="/wilink8-wlan/wl18xx_fw?page=8">8</a> <a href="/wilink8-wlan/wl18xx_fw?page=9">9</a> <span class="gap">&hellip;</span> <a href="/wilink8-wlan/wl18xx_fw?page=19">19</a> <a href="/wilink8-wlan/wl18xx_fw?page=20">20</a> <a href="/wilink8-wlan/wl18xx_fw?page=2" class="next_page" rel="next">Next</a></div>
+      </div>
+              <div id="sidebar">
+            <ul class="sidebar-meta">
+    <li>
+      <strong>Project:</strong>
+      <a href="/wilink8-wlan">wilink8-wlan</a>    </li>
+    <li>
+      <strong>Owner:</strong>
+      <a href="/+wilink8-wlan-team">+wilink8-wlan-team</a>            <small class="hint">
+        (through <a href="/~guym">~guym</a>)
+      </small>
+          </li>
+        <li>
+      <strong>Created:</strong>
+      10 Feb 12:48    </li>
+  </ul>
+
+  <ul class="links navigation">
+          <li class="clone_repository"><a href="/wilink8-wlan/wl18xx_fw/clone">Clone repository</a></li>
+          </ul>
+
+  <ul class="links navigation">
+      </ul>
+
+  
+<h4>Committers</h4>    
+<ul class="committers">
+  <li>
+    <div class="group">
+      <img alt="Group" src="/images/silk/group.png?1349083142" />
+      <a href="/+wilink8-wlan-team">+wilink8-wlan-team</a>    </div>
+  </li>
+</ul>
+
+  
+      
+
+<h4>Repository clones</h4>
+
+  
+
+<div id="repo_search" 
+     gts:searchUri="/wilink8-wlan/wl18xx_fw/search_clones">
+  <form>
+  <input name="filter" type="text" class="search" autocomplete="off" />
+  <span class="reset"><img alt="Cancel_grey" src="/images/cancel_grey.png?1349083142" /></span>
+  </form>
+  <div class="no-results-found">
+    No results
+  </div>
+  <ul class="repository_list"></ul>
+</div>
+
+  <div class="personal_clones">
+    <h5>Personal clones (14)</h5>
+    <ul class="repository_list">
+            
+<li class="clone">
+  <div class="name">
+    <a href="/~a0787315/wilink8-wlan/a0787315s-wl18xx_fw">a0787315s-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/46e5081fd746f77d6d32c097b829f748&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~a0787315">a0787315</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~burakcayir/wilink8-wlan/burakcayirs-wl18xx_fw">burakcayirs-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/8cb3f3bd9dd862d3c0e3d871f0725e94&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~burakcayir">burakcayir</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~duclinhbk43/wilink8-wlan/duclinhbk43s-wl18xx_fw">duclinhbk43s-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/bc3ff39a6d462ce0962c04afaacb8288&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~duclinhbk43">duclinhbk43</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~asidai33/wilink8-wlan/asidai33s-wl18xx_fw">asidai33s-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6ee06fa0c4ff64911545d19616908fbd&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~asidai33">asidai33</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~xuliming/wilink8-wlan/xulimings-wl18xx_fw">xulimings-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/afcdfc35a3fd95d06798563e6bc60e9c&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~xuliming">xuliming</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~asidai33/wilink8-wlan/asidai33-wl18xx_fw">asidai33-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/6ee06fa0c4ff64911545d19616908fbd&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~asidai33">asidai33</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~stabanelli/wilink8-wlan/stabanellis-wl18xx_fw">stabanellis-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/327ffdb5de070825a3e91e018da6c7e1&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~stabanelli">stabanelli</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~jeslinpaulj/wilink8-wlan/jeslinpauljs-wl18xx_fw">jeslinpauljs-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/d4d99842c02567f042af27711418f99a&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~jeslinpaulj">jeslinpaulj</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~tjjennen/wilink8-wlan/tjjennens-wl18xx_fw">tjjennens-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/4b5826166645cd7bd97f316ad720992d&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~tjjennen">tjjennen</a>    </div>
+  </li>            
+<li class="clone">
+  <div class="name">
+    <a href="/~anshbhutani/wilink8-wlan/anshbhutanis-wl18xx_fw">anshbhutanis-wl18xx_fw</a>  </div>
+      <div class="user">
+      <img alt="avatar" height="16" src="https://secure.gravatar.com/avatar/b7ea9015ee3e290a8d9ea8e4e2142106&amp;default=https%3A%2F%2Fgit.ti.com%2Fimages%2Fdefault_face.gif&amp;version=tiny&amp;size=16" width="16" />
+      <a href="/~anshbhutani">anshbhutani</a>    </div>
+  </li>            <ul>
+  </div>
+
+          </div>
+          </div>
+    <div id="footer">
+      
+<div class="powered-by">
+	<a href="http://www.ti.com"><img alt="Ti_logo2" src="/images/../img/ti_logo2.png?1361247549" title="Texas Instruments" /></a>  	<a href="http://gitorious.org"><img alt="Poweredby" src="/images/../img/poweredby.png?1349083142" title="Powered by Gitorious" /></a></div>
+<script src="/javascripts/onload.js?1349083142" type="text/javascript"></script>
+      
+<div id="footer-links">
+  <h3>Gitorious@TI Open Source Collaboration</h3>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/about/faq">FAQ</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  
+    <ul>
+      <li><a href="http://groups.google.com/group/gitorious">Discussion group</a></li>
+      <li><a href="http://blog.gitorious.org">Blog</a></li>
+    </ul>
+  
+      
+<ul>
+  <li><a href="http://www.ti.com/corp/docs/legal/termsofuse.shtml">Terms of Service</a></li>
+  <li><a href="http://www.ti.com/corp/docs/legal/privacy.shtml">Privacy Policy</a></li>
+</ul>
+
+  
+  
+    <ul>
+      
+        <li><a href="https://git.ti.com/ti-faq/pages/Home">Gitorious@TI FAQ</a></li>
+      
+        <li><a href="http://git.ti.com/cgit/">CGIT Interface to Repos</a></li>
+      
+    </ul>
+  
+</div>
+      <p class="footer-blurb">
+  
+    <a href="https://git.ti.com/ti-faq/pages/Home">Gitorous@TI FAQ</a>
+    <a href="http://git.ti.com/cgit/">CGIT Interface to Repos</a>
+  
+</p>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+</body>
+</html>

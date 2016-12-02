@@ -9,6 +9,9 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+# include system information
+include /usr/share/dpkg/architecture.mk
+
 DESTDIR=$(CURDIR)/debian/tmp
 
 %:
@@ -19,7 +22,7 @@ override_dh_auto_clean:
 	rm -f brcm_patchram_plus
 
 override_dh_auto_build:
-	gcc -o brcm_patchram_plus brcm_patchram_plus.c
+	$(DEB_TARGET_GNU_TYPE)-gcc -o brcm_patchram_plus brcm_patchram_plus.c
 
 override_dh_auto_install:
 	mkdir -p $(DESTDIR)/lib/firmware/brcm
@@ -30,6 +33,10 @@ override_dh_auto_install:
 	install -v -m644 bcm4329b1.hcd $(DESTDIR)/lib/firmware/brcm/bcm4329.hcd
 	install -v -m644 bcm4330.hcd $(DESTDIR)/lib/firmware/brcm/
 	install -v -m755 -D brcm_patchram_plus $(DESTDIR)/usr/sbin/brcm_patchram_plus
+
+	mkdir -p $(DESTDIR)/lib/firmware/ti-connectivity
+	install -v -m644 wl18xx-fw-4.bin $(DESTDIR)/lib/firmware/ti-connectivity/
+	install -v -m644 TIInit_12.8.32.bts $(DESTDIR)/lib/firmware/
 
 override_dh_installinit:
 	dh_installinit --name=brcm_patchram_plus@ -n
