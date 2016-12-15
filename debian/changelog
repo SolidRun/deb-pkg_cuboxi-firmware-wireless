@@ -1,3 +1,9 @@
+cuboxi-firmware-wireless (9) UNRELEASED; urgency=medium
+
+  * add TI WL18xx firmware
+
+ -- Josua Mayer <josua@linux>  Thu, 15 Dec 2016 16:28:06 +0100
+
 cuboxi-firmware-wireless (8) stable; urgency=high
 
   * reduce bluetooth connection speed to 1.5Mbit/s
