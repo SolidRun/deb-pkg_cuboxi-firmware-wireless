@@ -54,6 +54,8 @@ Description: Bluetooth firmware for cubox-i and hummingboards
 Package: cuboxi-firmware-wireless-wifi-ti
 Architecture: all
 Depends: ${misc:Depends}
+Conflicts: firmware-ti-connectivity
+Replaces: firmware-ti-connectivity
 Description: Wifi-firmware for cubox-i and hummingboards
  T. O. D. O.
 
@@ -61,6 +63,6 @@ Package: cuboxi-firmware-wireless-wifi-config-ti
 Architecture: all
 Depends:
  ${misc:Depends},
- cuboxi-firmware-wireless-wifi-ti,
+ firmware-ti-connectivity (>= 20161130) | cuboxi-firmware-wireless-wifi-ti,
 Description: Config-files for wifi hardware in cubox-i and hummingboards
  T. O. D. O.
