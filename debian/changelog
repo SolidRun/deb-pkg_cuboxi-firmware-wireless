@@ -2,50 +2,50 @@ cuboxi-firmware-wireless (9) stable; urgency=medium
 
   * add TI WL18xx firmware
 
- -- Josua Mayer <josua@linux>  Tue, 21 Mar 2017 16:23:17 +0100
+ -- Josua Mayer <josua.mayer97@gmail.com>  Tue, 21 Mar 2017 16:23:17 +0100
 
 cuboxi-firmware-wireless (8) stable; urgency=high
 
   * reduce bluetooth connection speed to 1.5Mbit/s
 
- -- Josua Mayer <josua@linux>  Fri, 19 Feb 2016 17:15:35 +0100
+ -- Josua Mayer <josua.mayer97@gmail.com>  Fri, 19 Feb 2016 17:15:35 +0100
 
 cuboxi-firmware-wireless (7) stable; urgency=high
 
   * rename bcm4329 BT firmware file to the expected name
 
- -- Josua Mayer <josua@linux>  Tue, 16 Feb 2016 12:43:47 +0100
+ -- Josua Mayer <josua.mayer97@gmail.com>  Tue, 16 Feb 2016 12:43:47 +0100
 
 cuboxi-firmware-wireless (6) stable; urgency=high
 
   * re-added sysvinit script for bluetooth firmware
     (skipped when systemd is detected)
 
- -- Josua Mayer <josua@linux>  Sat, 13 Feb 2016 14:22:54 +0000
+ -- Josua Mayer <josua.mayer97@gmail.com>  Sat, 13 Feb 2016 14:22:54 +0000
 
 cuboxi-firmware-wireless (5) stable; urgency=high
 
   * revert bcm4329 firmware back to the one in linux kernel
 
- -- Josua Mayer <josua@linux>  Thu, 15 Oct 2015 21:04:08 +0200
+ -- Josua Mayer <josua.mayer97@gmail.com>  Thu, 15 Oct 2015 21:04:08 +0200
 
 cuboxi-firmware-wireless (4) stable; urgency=high
 
   * take latest wifi firmware from android
 
- -- Josua Mayer <josua@linux>  Thu, 15 Oct 2015 21:04:08 +0200
+ -- Josua Mayer <josua.mayer97@gmail.com>  Thu, 15 Oct 2015 21:04:08 +0200
 
 cuboxi-firmware-wireless (3) stable; urgency=medium
 
   * add broadcom patchram service
 
- -- Josua Mayer <privacy@not.given>  Mon, 25 May 2015 04:11:36 +0200
+ -- Josua Mayer <josua.mayer97@gmail.com>  Mon, 25 May 2015 04:11:36 +0200
 
 cuboxi-firmware-wireless (2) unstable; urgency=low
 
   * split into multiple packages
 
- -- Josua Mayer <privacy@not.given>  Tue, 16 Dec 2014 01:37:23 +0100
+ -- Josua Mayer <josua.mayer97@gmail.com>  Tue, 16 Dec 2014 01:37:23 +0100
 
 cuboxi-firmware-wireless (1) unstable; urgency=low
 

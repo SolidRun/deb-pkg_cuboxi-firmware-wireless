@@ -1,8 +1,8 @@
 Source: cuboxi-firmware-wireless
 Section: non-free/kernel
 Priority: optional
-Maintainer: Josua Mayer <privacy@not.given>
-Build-Depends: debhelper (>= 8.0.0)
+Maintainer: Josua Mayer <josua.mayer97@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), dpkg-dev (>= 1.16.1~)
 Standards-Version: 3.9.6
 Vcs-Git: https://github.com/mxOBS/deb-pkg_cuboxi-firmware-wireless.git
 Vcs-Browser: https://github.com/mxOBS/deb-pkg_cuboxi-firmware-wireless
@@ -37,8 +37,9 @@ Package: cuboxi-firmware-wireless-bluetooth
 Architecture: any
 Depends:
  ${misc:Depends},
+ ${shlibs:Depends},
  lsb-base (>= 3.2-14),
- init-system-helpers,
+ init-system-helpers (>= 1.18~bpo70+1),
 Description: Bluetooth firmware for cubox-i and hummingboards
  T. O. D. O.
 
@@ -47,7 +48,7 @@ Architecture: any
 Depends:
  ${misc:Depends},
  lsb-base (>= 3.2-14),
- init-system-helpers,
+ init-system-helpers (>= 1.18~bpo70+1),
 Description: Bluetooth firmware for cubox-i and hummingboards
  T. O. D. O.
 

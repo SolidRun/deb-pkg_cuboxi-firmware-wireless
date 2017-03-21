@@ -1,0 +1,3 @@
+# the sysvinit script checks for systemd presence at runtime,
+# systemd-sysvinit compatibility mode was evaded on purpose!
+cuboxi-firmware-wireless-bluetooth binary: systemd-no-service-for-init-script
