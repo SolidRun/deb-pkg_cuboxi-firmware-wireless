@@ -1,8 +1,8 @@
-cuboxi-firmware-wireless (9) UNRELEASED; urgency=medium
+cuboxi-firmware-wireless (9) stable; urgency=medium
 
   * add TI WL18xx firmware
 
- -- Josua Mayer <josua@linux>  Thu, 15 Dec 2016 16:28:06 +0100
+ -- Josua Mayer <josua@linux>  Tue, 21 Mar 2017 16:23:17 +0100
 
 cuboxi-firmware-wireless (8) stable; urgency=high
 
