@@ -36,7 +36,8 @@ override_dh_auto_install:
 
 	mkdir -p $(DESTDIR)/lib/firmware/ti-connectivity
 	install -v -m644 wl18xx-fw-4.bin $(DESTDIR)/lib/firmware/ti-connectivity/
-	install -v -m644 TIInit_12.8.32.bts $(DESTDIR)/lib/firmware/
+	install -v -m644 wl18xx-conf.bin $(DESTDIR)/lib/firmware/ti-connectivity/
+	install -v -m644 TIInit_11.8.32.bts $(DESTDIR)/lib/firmware/
 
 override_dh_installinit:
 	dh_installinit --name=brcm_patchram_plus@ -n
