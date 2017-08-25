@@ -1,3 +1,10 @@
+cuboxi-firmware-wireless (11) stable; urgency=medium
+
+  * update Ti firmware
+  * added custom configuration binary
+
+ -- Josua Mayer <josua.mayer97@gmail.com>  Fri, 25 Aug 2017 14:49:24 +0200
+
 cuboxi-firmware-wireless (10) stable; urgency=medium
 
   * update Ti firmware
