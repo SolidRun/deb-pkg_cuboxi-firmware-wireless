@@ -9,18 +9,21 @@ License: MIT
 Files: brcmfmac*.bin bcm*.hcd
 Copyright: Broadcom
 License: Broadcom MIT-alike
+ See /usr/share/doc/cuboxi-firmware-wireless/LICENCE.broadcom_bcm43xx for the full text.
 
 Files: debian/*
 Copyright: 2014 Josua Mayer <privacy@not.given>
 License: MIT
 
 Files: wl18xx-fw-4.bin
-Copyright: 2001 - 2013 Texas Instruments Incorporated
+Copyright: 2016 Texas Instruments Incorporated
 License: TI Limited License
+ See /usr/share/doc/cuboxi-firmware-wireless/LICENSE.wl18xx-fw-4 for the full text.
 
 Files: TIInit_12.8.32.bts
 Copyright: 2008 - 2013 Texas Instruments Incorporated
 License: TI Limited License
+ See /usr/share/doc/cuboxi-firmware-wireless/LICENSE.TIInit_12.8.32 for the full text.
 
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -40,130 +43,3 @@ License: MIT
  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
-
-License: Broadcom MIT-alike
- SOFTWARE LICENSE AGREEMENT
- .
- The accompanying software in binary code form (“Software”), is licensed to you,
- or, if you are accepting on behalf of an entity, the entity and its affiliates
- exercising rights hereunder (“Licensee”) subject to the terms of this software
- license agreement (“Agreement”), unless Licensee and Broadcom Corporation
- (“Broadcom”) execute a separate written software license agreement governing
- use of the Software. ANY USE, REPRODUCTION, OR DISTRIBUTION OF THE SOFTWARE
- CONSTITUTES LICENSEE’S ACCEPTANCE OF THIS AGREEMENT.
- .
- 1.	License. Subject to the terms and conditions of this Agreement,
- Broadcom hereby grants to Licensee a limited, non-exclusive, non-transferable,
- royalty-free license: (i) to use and integrate the Software with any other
- software; and (ii) to reproduce and distribute the Software complete,
- unmodified, and as provided by Broadcom, solely for use with Broadcom
- proprietary integrated circuit product(s) sold by Broadcom with which the
- Software was designed to be used, or their successors.
- .
- 2.	Restrictions. Licensee shall distribute Software with a copy of this
- Agreement. Licensee shall not remove, efface or obscure any copyright or
- trademark notices from the Software. Reproductions of the Broadcom copyright
- notice shall be included with each copy of the Software, except where such
- Software is embedded in a manner not readily accessible to the end user.
- Licensee shall not: (i) use, license, sell or otherwise distribute the Software
- except as provided in this Agreement; (ii) attempt to modify in any way,
- reverse engineer, decompile or disassemble any portion of the Software; or
- (iii) use the Software or other material in violation of any applicable law or
- regulation, including but not limited to any regulatory agency. This Agreement
- shall automatically terminate upon Licensee’s failure to comply with any of the
- terms of this Agreement. In such event, Licensee will destroy all copies of the
- Software and its component parts.
- .
- 3.	Ownership. The Software is licensed and not sold.  Title to and
- ownership of the Software, including all intellectual property rights thereto,
- and any portion thereof remain with Broadcom or its licensors. Licensee hereby
- covenants that it will not assert any claim that the Software created by or for
- Broadcom infringe any intellectual property right owned or controlled by
- Licensee.
- .
- 4.     	Disclaimer. THE SOFTWARE IS OFFERED “AS IS,” AND BROADCOM PROVIDES AND
- GRANTS AND LICENSEE RECEIVES NO SUPPORT AND NO WARRANTIES OF ANY KIND, EXPRESS
- OR IMPLIED, BY STATUTE, COMMUNICATION OR CONDUCT WITH LICENSEE, OR OTHERWISE.
- BROADCOM SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A SPECIFIC PURPOSE, OR NONINFRINGEMENT CONCERNING THE SOFTWARE OR
- ANY UPGRADES TO OR DOCUMENTATION FOR THE SOFTWARE. WITHOUT LIMITATION OF THE
- ABOVE, BROADCOM GRANTS NO WARRANTY THAT THE SOFTWARE IS ERROR-FREE OR WILL
- OPERATE WITHOUT INTERRUPTION, AND GRANTS NO WARRANTY REGARDING ITS USE OR THE
- RESULTS THEREFROM INCLUDING, WITHOUT LIMITATION, ITS CORRECTNESS, ACCURACY, OR
- RELIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL BROADCOM
- OR ANY OF ITS LICENSORS HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED AND ON ANY THEORY
- OF LIABILITY, WHETHER FOR BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE) OR
- OTHERWISE, ARISING OUT OF THIS AGREEMENT OR USE, REPRODUCTION, OR DISTRIBUTION
- OF THE SOFTWARE, INCLUDING BUT NOT LIMITED TO LOSS OF DATA AND LOSS OF PROFITS,
- EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THESE
- LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY
- LIMITED REMEDY.
- .
- 5. 	Export Laws.  LICENSEE UNDERSTANDS AND AGREES THAT THE SOFTWARE IS
- SUBJECT TO UNITED STATES AND OTHER APPLICABLE EXPORT-RELATED LAWS AND
- REGULATIONS AND THAT LICENSEE MAY NOT EXPORT, RE-EXPORT OR TRANSFER THE
- SOFTWARE OR ANY DIRECT PRODUCT OF THE SOFTWARE EXCEPT AS PERMITTED UNDER THOSE
- LAWS. WITHOUT LIMITING THE FOREGOING, EXPORT, RE-EXPORT, OR TRANSFER OF THE
- SOFTWARE TO CUBA, IRAN, NORTH KOREA, SUDAN, AND SYRIA IS PROHIBITED.
-
-License: TI Limited License
- All rights reserved not granted herein.
- .
- Limited License.
- .
- Texas Instruments Incorporated grants a world-wide, royalty-free, non-exclusive
- license under copyrights and patents it now or hereafter owns or controls to
- make, have made, use, import, offer to sell and sell ("Utilize") this software
- subject to the terms herein. With respect to the foregoing patent license, such
- license is granted solely to the extent that any such patent is necessary to
- Utilize the software alone. The patent license shall not apply to any
- combinations which include this software, other than combinations with devices
- manufactured by or for TI (“TI Devices”). No hardware patent is licensed
- hereunder.
- .
- Redistributions must preserve existing copyright notices and reproduce this
- license (including the above copyright notice and the disclaimer and
- (if applicable) source code license limitations below) in the documentation
- and/or other materials provided with the distribution
- .
- Redistribution and use in binary form, without modification, are permitted
- provided that the following conditions are met:
- .
-  * No reverse engineering, decompilation, or disassembly of this
-    software is permitted with respect to any software provided in binary
-    form.
- .
-  * any redistribution and use are licensed by TI for use only with TI
-    Devices.
- .
-  * Nothing shall obligate TI to provide you with source code for the
-    software licensed and provided to you in object code.
- .
- If software source code is provided to you, modification and redistribution of
- the source code are permitted provided that the following conditions are met:
- .
-	* any redistribution and use of the source code, including any
-	  resulting derivative works, are licensed by TI for use only with TI
-	  Devices.
-
-	* any redistribution and use of any object code compiled from the
-	  source code and any resulting derivative works, are licensed by TI
-	  for use only with TI Devices.
- .
- Neither the name of Texas Instruments Incorporated nor the names of its
- suppliers may be used to endorse or promote products derived from this
- software without specific prior written permission.
- .
- DISCLAIMER.
- .
- THIS SOFTWARE IS PROVIDED BY TI AND TI’S LICENSORS "AS IS" AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
- MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
- EVENT SHALL TI AND TI’S LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
- PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
- LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
- OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
- ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
