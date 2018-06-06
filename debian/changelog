@@ -1,3 +1,10 @@
+cuboxi-firmware-wireless (12) stable; urgency=medium
+
+  * update TI firmware
+  * update TI configuration binary
+
+ -- Josua Mayer <josua.mayer97@gmail.com>  Wed, 06 Jun 2018 16:35:58 +0200
+
 cuboxi-firmware-wireless (11) stable; urgency=medium
 
   * update Ti firmware
