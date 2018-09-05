@@ -1,3 +1,10 @@
+cuboxi-firmware-wireless (13) stable; urgency=medium
+
+  * update TI firmware
+  * update TI configuration binary
+
+ -- Jon Nettleton <jon@solid-run.com>  Wed, 05 Sep 2018 13:39:00 +0200
+
 cuboxi-firmware-wireless (12) stable; urgency=medium
 
   * update TI firmware
