@@ -30,8 +30,8 @@ override_dh_auto_install:
 	install -v -m644 brcmfmac4329-sdio.txt $(DESTDIR)/lib/firmware/brcm/
 	install -v -m644 brcmfmac4330-sdio.bin $(DESTDIR)/lib/firmware/brcm/
 	install -v -m644 brcmfmac4330-sdio.txt $(DESTDIR)/lib/firmware/brcm/
-	install -v -m644 bcm4329b1.hcd $(DESTDIR)/lib/firmware/brcm/bcm4329.hcd
-	install -v -m644 bcm4330.hcd $(DESTDIR)/lib/firmware/brcm/
+	install -v -m644 BCM4329B1.hcd $(DESTDIR)/lib/firmware/brcm/
+	install -v -m644 BCM4330B1.hcd $(DESTDIR)/lib/firmware/brcm/
 	install -v -m755 -D brcm_patchram_plus $(DESTDIR)/usr/sbin/brcm_patchram_plus
 
 	mkdir -p $(DESTDIR)/lib/firmware/ti-connectivity

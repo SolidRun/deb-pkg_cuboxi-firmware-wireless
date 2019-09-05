@@ -1,6 +1,7 @@
 [Unit]
 Description=Broadcom bluetooth firmware loader
 ConditionPathExists=/dev/ttymxc3
+ConditionPathExists=!/proc/device-tree/soc/aips-bus@02100000/serial@021f0000/bluetooth
 After=local-fs.target remote-fs.target
 
 [Service]

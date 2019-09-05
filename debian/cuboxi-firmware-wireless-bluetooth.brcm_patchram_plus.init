@@ -41,10 +41,10 @@ select_firmware() {
 	firmware=
 	case $device in
 	0x4329)
-		firmware=/lib/firmware/brcm/bcm4329.hcd
+		firmware=/lib/firmware/brcm/BCM4329B1.hcd
 		;;
 	0x4330)
-		firmware=/lib/firmware/brcm/bcm4330.hcd
+		firmware=/lib/firmware/brcm/BCM4330B1.hcd
 		;;
 	*)
 		log_warning_msg "Error: Unknown BT device $device!"
@@ -71,6 +71,12 @@ do_stop() {
 
 # When systemd is present, completely skip this script
 if [ -d /run/systemd/system ]; then
+	exit 0
+fi
+
+# skip if device-tree specifies the bluetooth node
+# this is a heuristic to know when the kernel can load firmware by itself
+if [ -e /proc/device-tree/soc/aips-bus@02100000/serial@021f0000/bluetooth ]; then
 	exit 0
 fi
 
