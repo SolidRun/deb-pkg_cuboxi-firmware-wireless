@@ -1,3 +1,10 @@
+cuboxi-firmware-wireless (14) stable; urgency=medium
+
+  * rename bluetooth firmware
+  * disable patchram service for kernels with builtin firmware loader
+
+ -- Josua Mayer <josua@solid-run.com>  Thu, 05 Sep 2019 16:12:24 +0200
+
 cuboxi-firmware-wireless (13) stable; urgency=medium
 
   * update TI firmware
